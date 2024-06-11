@@ -1,0 +1,27 @@
+img {
+  max-width: 100%;
+}
+
+.img-wrapper {
+  margin: 30px 0;
+}
+
+.filter-btns {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+
+.box {
+  display: inline-block;
+  position: relative;
+}
+
+.box .percent {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-45%, -45%);
+  font-size: 20px;
+  font-weight: 500;
+}
